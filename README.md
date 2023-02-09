@@ -7,7 +7,9 @@ Le funzionalità esposte sono: <br>
 
 
 <br>
+
 ## DESCRIZIONE
+
 <br>
 <pre>
 L'applicazione espone 4 endpoint invocabili tramite chiamate GET: <br>
@@ -17,7 +19,9 @@ L'applicazione espone 4 endpoint invocabili tramite chiamate GET: <br>
   /posts-db                 restituisce i dati contenuti nel DB. <br>
 </pre>
   <br>
+  
 ### CONTENUTO
+
   <br>
  <pre>
   Il repository contiene: <br>
@@ -28,7 +32,9 @@ L'applicazione espone 4 endpoint invocabili tramite chiamate GET: <br>
     node_modules.zip        zip contenente tutto quello indicato fin'ora da caricare per il deploy serverless <br>
  </pre>
 <br>
+
 ### SCELTE IMPLEMENTATIVE
+
 <br>
 Per esporre le 4 funzionalità descritte sopra si ricorre alle API di Express che permettono la creazione dei 4 corrispettivi endpoint invocabili tramite chiamate GET.
 Quanto riguarda la lettura dal feed si è utilizzato il pacchetto “https” di NodeJS che permette, tramite le sue API, di leggere i dati contenuti nel feed tramite l’URL specificata. In particolare, tramite l’endpoint “/posts” vengono restituiti in formato testuale tutti i post contenuti nel feed. Inoltre, è possibile effettuare un’operazione di filtraggio tramite l’endpoint “/post-filtered” e i suoi parametri title e items. Vengono restituiti i primi items post il cui titolo contiene la stringa specificata in title.<br><br>
