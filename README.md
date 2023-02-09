@@ -30,6 +30,7 @@ L'applicazione espone 4 endpoint invocabili tramite chiamate GET: <br>
     package.json            risoluzione dipendenze <br>
     package-lock.json       risoluzione dipendenze <br>
     node_modules.zip        zip contenente tutto quello indicato fin'ora da caricare per il deploy serverless <br>
+    report                  documentazione di progetto <br>
  </pre>
 <br>
 
