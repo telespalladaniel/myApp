@@ -1,7 +1,7 @@
 # myApp
 Progettazione e sviluppo di un semplice web service che legge un elenco di post in formato json da un feed, li restituisce e li persiste su DB. Deploy come FaaS su AWS Lambda. Progetto sviluppato in NodeJS+ExpressJS.
 
-Le funzionalità esposte sono:
+Le funzionalità esposte sono: <br>
 •	Restituzione dell’elenco di post con eventuali opzioni di filtraggio per titolo e/o numero massimo di elementi da restituire
 •	Interazione con DB mySQL nel quale salvare i contenuti del feed a richiesta e possibilità di restituire i contenuti del DB quando richiesto
 
